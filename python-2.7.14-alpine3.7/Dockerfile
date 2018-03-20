@@ -33,8 +33,6 @@ RUN set -ex \
 	\
 	&& apk add --no-cache --virtual .build-deps  \
 		bzip2-dev \
-		bash \
-		vim \
 		coreutils \
 		dpkg-dev dpkg \
 		gcc \
